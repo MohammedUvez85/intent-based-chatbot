@@ -8,10 +8,12 @@
         "Hello",
         "Hey",
         "Good morning",
+        "Good afternoon",
         "Good evening",
         "How are you?",
         "Is anyone there?",
-        "Hey there"
+        "Hey there",
+        "Greetings"
       ],
       "responses": [
         "Hello! How can I help you today?",
@@ -27,7 +29,11 @@
         "See you later",
         "Talk to you later",
         "I am leaving",
-        "Have a nice day"
+        "Have a nice day",
+        "Catch you later",
+        "See you soon",
+        "I have to go",
+        "Until next time"
       ],
       "responses": [
         "Goodbye! Have a great day.",
@@ -40,9 +46,14 @@
       "patterns": [
         "Thanks",
         "Thank you",
-        "That is helpful",
+        "Thanks a lot",
         "I appreciate your help",
-        "Thanks a lot"
+        "Many thanks",
+        "Thank you very much",
+        "I am grateful",
+        "Thanks for your response",
+        "That was kind of you",
+        "I appreciate it"
       ],
       "responses": [
         "You're welcome!",
@@ -55,9 +66,14 @@
       "patterns": [
         "Can you help me?",
         "I need help",
-        "How can you assist me?",
-        "What can you do?",
-        "I need some assistance"
+        "Please assist me",
+        "I have a problem",
+        "I need some assistance",
+        "Can you guide me?",
+        "Could you support me?",
+        "I am facing an issue",
+        "Help me with something",
+        "I need guidance"
       ],
       "responses": [
         "I can answer questions and provide basic assistance.",
@@ -71,7 +87,12 @@
         "What are your working hours?",
         "What time do you close?",
         "Tell me your timings",
-        "When does the office open?"
+        "When does the office open?",
+        "Are you available in the morning?",
+        "What are your office hours?",
+        "When do you start working?",
+        "When does the office close?",
+        "Are you open on weekdays?"
       ],
       "responses": [
         "We are open Monday through Friday from 9 AM to 5 PM."
@@ -80,15 +101,21 @@
     {
       "tag": "services",
       "patterns": [
-        "What do you do?",
         "What services do you offer?",
-        "How can you help me?",
         "Tell me about your services",
-        "What can I ask you?"
+        "What are your capabilities?",
+        "What features do you have?",
+        "What can this chatbot do?",
+        "What topics can you answer?",
+        "What kind of information can you provide?",
+        "Tell me what you can do",
+        "What functions are available?",
+        "What are your main features?"
       ],
       "responses": [
         "I am an NLP chatbot designed to answer questions and provide basic assistance.",
-        "I can help you with general inquiries."
+        "I can help you with general inquiries.",
+        "I can understand simple questions and provide relevant responses."
       ]
     },
     {
@@ -97,11 +124,18 @@
         "What is your name?",
         "Who are you?",
         "Tell me your name",
-        "What should I call you?"
+        "What should I call you?",
+        "May I know your name?",
+        "Introduce yourself",
+        "What do people call you?",
+        "Can you tell me who you are?",
+        "What is your chatbot name?",
+        "Who am I talking to?"
       ],
       "responses": [
         "I am an Intent-Based AI Chatbot.",
-        "You can call me your AI assistant!"
+        "You can call me your AI assistant!",
+        "I am your NLP-powered virtual assistant."
       ]
     },
     {
@@ -109,11 +143,19 @@
       "patterns": [
         "How old are you?",
         "When were you created?",
-        "What is your age?"
+        "What is your age?",
+        "Are you young or old?",
+        "How long have you existed?",
+        "When did you start?",
+        "How many years old are you?",
+        "What is your creation date?",
+        "Were you created recently?",
+        "Do you have an age?"
       ],
       "responses": [
         "I am an AI chatbot, so I do not have a human age.",
-        "I was created to assist users with their questions."
+        "I was created to assist users with their questions.",
+        "I do not age like humans because I am software."
       ]
     },
     {
@@ -122,24 +164,38 @@
         "Who created you?",
         "Who developed you?",
         "Who is your developer?",
-        "Who made you?"
+        "Who made you?",
+        "Who programmed you?",
+        "Who built this chatbot?",
+        "Who is responsible for your development?",
+        "Who designed you?",
+        "Who is your creator?",
+        "How were you developed?"
       ],
       "responses": [
         "I was developed as a Python-based NLP mini project.",
-        "My developer created me using Natural Language Processing and Deep Learning."
+        "My developer created me using Natural Language Processing and Deep Learning.",
+        "I was built using Python, PyTorch and NLTK."
       ]
     },
     {
       "tag": "thanks_help",
       "patterns": [
-        "You helped me",
+        "You helped me solve my problem",
         "That solved my problem",
-        "You are helpful",
-        "Excellent support"
+        "Your guidance worked perfectly",
+        "My issue is resolved now",
+        "You made things easier for me",
+        "I got the solution I needed",
+        "Your suggestion worked",
+        "My problem is fixed",
+        "That was exactly the solution I needed",
+        "I successfully completed my task"
       ],
       "responses": [
         "I'm glad I could help!",
-        "Happy to assist you anytime."
+        "Happy to assist you anytime.",
+        "Great! I'm glad your problem is solved."
       ]
     }
   ]
