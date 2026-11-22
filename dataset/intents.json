@@ -1,0 +1,146 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you?",
+        "Is anyone there?",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to meet you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I am leaving",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That is helpful",
+        "I appreciate your help",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "How can you assist me?",
+        "What can you do?",
+        "I need some assistance"
+      ],
+      "responses": [
+        "I can answer questions and provide basic assistance.",
+        "Sure! Tell me what you need help with."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "When are you open?",
+        "What are your working hours?",
+        "What time do you close?",
+        "Tell me your timings",
+        "When does the office open?"
+      ],
+      "responses": [
+        "We are open Monday through Friday from 9 AM to 5 PM."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What do you do?",
+        "What services do you offer?",
+        "How can you help me?",
+        "Tell me about your services",
+        "What can I ask you?"
+      ],
+      "responses": [
+        "I am an NLP chatbot designed to answer questions and provide basic assistance.",
+        "I can help you with general inquiries."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "What should I call you?"
+      ],
+      "responses": [
+        "I am an Intent-Based AI Chatbot.",
+        "You can call me your AI assistant!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "When were you created?",
+        "What is your age?"
+      ],
+      "responses": [
+        "I am an AI chatbot, so I do not have a human age.",
+        "I was created to assist users with their questions."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who developed you?",
+        "Who is your developer?",
+        "Who made you?"
+      ],
+      "responses": [
+        "I was developed as a Python-based NLP mini project.",
+        "My developer created me using Natural Language Processing and Deep Learning."
+      ]
+    },
+    {
+      "tag": "thanks_help",
+      "patterns": [
+        "You helped me",
+        "That solved my problem",
+        "You are helpful",
+        "Excellent support"
+      ],
+      "responses": [
+        "I'm glad I could help!",
+        "Happy to assist you anytime."
+      ]
+    }
+  ]
+}
