@@ -22,3 +22,5 @@ Thumbs.db
 
 # Temporary files
 *.log
+
+data/chat_history.json
